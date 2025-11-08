@@ -55,7 +55,7 @@ void loop() {
 > Set baud rate = 9600 (bottom-right corner)
 ### 1. Observe the Arduino Board and find out the GPIO pins. Also, write its functions.
 ```
-
+On the Arduino boards the GPIO pins include both the digital pins (0 to 13) and the analog pins (A0 to A5), and they allow the board to interact with external components. The digital pins can function as inputs or outputs, letting the Arduino read HIGH or LOW signals or send digital control signals to devices like LEDs, motors, or relays. Some digital pins also support PWM, which makes it possible to create variable output levels for tasks like dimming lights. The analog pins read varying voltage levels from sensors and can also be used as extra digital pins if needed.
 
 ```
 ### 2. Find out ceramic resonator and microcontroller and write it's function.
